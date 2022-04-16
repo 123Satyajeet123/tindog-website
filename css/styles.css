@@ -1,0 +1,242 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+
+
+
+/* navbar */
+
+.nav-item {
+    padding: 0 1.2rem;
+}
+
+.nav-link {
+    font-family: "Montserrat-Light";
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+
+/* container-fluid top */
+
+.container-fluid {
+    padding: 3% 15%;
+    height: 450px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat-bold";
+}
+
+h2 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+h3 {
+
+    font-weight: bolder;
+}
+
+p {
+    color: #afafaf;
+}
+
+#title {
+    background-color: #ff4c68;
+    text-align: left;
+    color: #fff;
+
+}
+
+
+
+
+
+
+/* download buttons */
+.download-button {
+    margin: 5% 5% 5% 0;
+}
+
+
+em {
+    color: #fff;
+    position: relative;
+    right: 50px;
+}
+
+
+
+
+
+
+/* title image */
+.title-img {
+    width: 60%;
+    /* to change orientation */
+    transform: rotate(25deg);
+    /*  */
+
+
+}
+
+
+
+
+
+
+/* features section */
+
+#features {
+    padding: 7% 15%;
+    /* to make title behind feature not transparent  */
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+
+}
+
+.feature-box {
+    /* to make the contents inside the div center */
+    padding: 5%;
+}
+
+
+
+
+/* icons     */
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+
+
+
+/* testimonials section */
+
+#testimonials {
+    padding: 7% 15%;
+    background-color: #ef8172;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    transform: scale(0.5);
+}
+
+/* for making the item shrink little bit so that arrows are occupying larger space */
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+
+
+
+/* press section */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3px;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+
+
+
+/* pricing */
+
+#pricing {
+    padding: 5%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#pricing h2 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    color: #000;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+@media(max-width:1028px) {
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+
+
+
+
+/* call to action */
+#cta {
+    background-color: #ff4c68;
+    margin: 1% 10%;
+}
+
+/* ending footer and copyright */
+
+#footer {
+    background-color: #fff;
+}
+
+.footer-img {
+    margin: 4rem 0.5rem 2rem 0.5rem;
+}
+
+
+
+
+
+
+
+/* utility */
+
+.big-heading {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.8rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
